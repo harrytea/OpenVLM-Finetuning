@@ -3,7 +3,7 @@ echo "检查 zsh 是否已安装..."
 if ! command -v zsh &> /dev/null; then
     echo "zsh 未安装，正在安装..."
     # 对于 Debian/Ubuntu 系统
-    sudo apt update && sudo apt install -y zsh unzip git
+    sudo apt update && sudo apt install -y curl zsh unzip git
     # 对于 CentOS/RHEL 系统
     # sudo yum install -y zsh unzip git
     # 对于 macOS 用户，可以通过 Homebrew 安装
