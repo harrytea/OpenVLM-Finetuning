@@ -30,5 +30,6 @@ torchrun --nproc-per-node $NPROC_PER_NODE \
     --save_steps 1000 \
     --plot_loss \
     --num_train_epochs 3 \
+    --preprocessing_num_workers 16 \
     --bf16 
 
