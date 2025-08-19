@@ -29,4 +29,4 @@ torchrun --nproc-per-node $NPROC_PER_NODE \
     --save_steps 1000 \
     --plot_loss \
     --num_train_epochs 3 \
-    --bf16 
+    --bf16  2>&1 | tee error.txt
