@@ -31,5 +31,5 @@ torchrun --nproc-per-node $NPROC_PER_NODE \
     --plot_loss \
     --num_train_epochs 3 \
     --preprocessing_num_workers 16 \
-    --bf16 
+    --bf16  2>&1 | tee error.txt
 
