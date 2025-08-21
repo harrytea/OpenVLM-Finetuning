@@ -1,6 +1,7 @@
 import json
 import os
 
+# convert llava format to llama-factory format
 
 # 显式指定要处理的 JSON 文件名列表
 json_file_list = [
